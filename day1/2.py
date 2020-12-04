@@ -3,7 +3,7 @@
 
 """
 Advent of Code 2020
-Day 1, Part 1
+Day 1, Part 2
 """
 
 
@@ -14,9 +14,10 @@ def main():
 
     for i in numbers:
         for j in numbers:
-            if i + j == 2020:
-                print(i * j)
-                return
+            for k in numbers:
+                if i + j + k == 2020:
+                    print(i * j * k)
+                    return
 
 
 if __name__ == '__main__':

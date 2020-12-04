@@ -1,3 +1,7 @@
+.gitignore
+
 .idea/
 day1/in.txt
 day2/in.txt
+day3/in.txt
+day4/in.txt
