@@ -4,17 +4,17 @@ with open('in.txt') as f:
 lines = [line.strip() for line in lines]
 
 
-class Passport():
+class Passport:
     def __init__(self, byr=-1, iyr=-1, eyr=-1, hgt=-1, hfc=-1, ecl=-1, pid=-1, cid=-1):
         self.fields = {
-            'byr' : byr,
-            'iyr' : iyr,
-            'eyr' : eyr,
-            'hgt' : hgt,
-            'hcl' : hfc,
-            'ecl' : ecl,
-            'pid' : pid,
-            'cid' : cid,
+            'byr': byr,
+            'iyr': iyr,
+            'eyr': eyr,
+            'hgt': hgt,
+            'hcl': hfc,
+            'ecl': ecl,
+            'pid': pid,
+            'cid': cid,
         }
 
 
