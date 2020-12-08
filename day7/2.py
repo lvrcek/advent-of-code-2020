@@ -7,7 +7,6 @@ Day 7, Part 2
 """
 
 
-color_dict = {}
 rule_dict = {}
 
 
