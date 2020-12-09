@@ -11,4 +11,4 @@ Puzzles, code and design are created by [Eric Wastl](http://was.tl/).
 ## Setup
 
 Each day consists of two Python scripts, one for each task.
-In order to get a solution, copy your generated input into a `in.txt` file, and simply run the for a certain day and task script. 
+In order to get a solution, copy your generated input into a `in.txt` file, save that file into a directory of the corresponding day, and simply run the Python script for the task you want solved. 
