@@ -14,7 +14,7 @@ def find_edges(tile):
     left = ''
     right = ''
     for row in tile:
-        print(row)
+        # print(row)
         left += row[0]
         right += row[-1]
     return up, down, left, right
@@ -31,7 +31,6 @@ def main():
         tile = '\n'.join(entry[1:])
         tiles[id] = tile
 
-    occurance = {}
     edge_dict = {}
     for id, tile in tiles.items():
         edges = find_edges(tile)
@@ -44,9 +43,6 @@ def main():
                     edge_dict[edge] += 1
                 else:
                     edge_dict[reverse] += 1
-
-    print(tiles)
-    print(edge_dict)
 
     mul = 1
     for id, tile in tiles.items():
@@ -61,11 +57,9 @@ def main():
                 if edge_dict[reverse] == 1:
                     count += 1
         if count == 2:
-            print(id)
             mul *= id
 
     print(mul)
-    # print(edge_dict)
 
 
 if __name__ == '__main__':
