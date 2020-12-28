@@ -3,7 +3,7 @@
 
 """
 Advent of Code 2020
-Day 11, Part 1
+Day 11, Part 2
 """
 
 from copy import deepcopy

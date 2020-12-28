@@ -3,7 +3,7 @@
 
 """
 Advent of Code 2020
-Day 12, Part 1
+Day 12, Part 2
 """
 
 
